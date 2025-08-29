@@ -80,6 +80,7 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     nagios-plugins-contrib \
     nagios-snmp-plugins \
     libmonitoring-plugin-perl \
+    icinga-cube \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
